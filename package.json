@@ -1,0 +1,29 @@
+{
+  "name": "bunyan-conditional-filestream",
+  "version": "1.0.0",
+  "description": "File stream that supports a callback to determine whether the entry needs to be logged or not.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martonw/bunyan-conditional-filestream.git"
+  },
+  "keywords": [
+    "bonyan",
+    "conditional",
+    "filestream"
+  ],
+  "author": "Marton Waszlavik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martonw/bunyan-conditional-filestream/issues"
+  },
+  "homepage": "https://github.com/martonw/bunyan-conditional-filestream#readme",
+  "devDependencies": {
+    "bunyan": "^1.7.0",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}
